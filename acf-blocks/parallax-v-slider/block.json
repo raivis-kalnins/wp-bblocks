@@ -2,7 +2,7 @@
     "name": "acf/parallax",
     "title": "Parallax Vertical Slider",
     "description": "Swiper - vertical direction slide & animated section",
-    "category": "freetimers-content",
+    "category": "wp-content",
     "icon": "id",
     "keywords": ["parallax"],
     "acf": {
