@@ -8,7 +8,7 @@
 	$cta_sec_button_url = get_fields()['cta_sec_button']['url'] ?? '';
 	$cta_sec_button_title = get_fields()['cta_sec_button']['title'] ?? '';
 ?>
-<div class="<?=$blockClass?> wp-block-cta-section-block">
+<div class="<?=$blockClass?>">
 	<div class="wp-block-cta-section-block__content faux-link__element" style="position:relative; padding:50px; text-align:center;<?php if( $cta_sec_bg ) : ?>background:url(<?=$cta_sec_bg ?>) center / cover no-repeat;<?php endif; ?>">
 		<div class="row section-wrapper">
 			<div class="col col-12 wp-block-cta-section-block__content align-self-center">
