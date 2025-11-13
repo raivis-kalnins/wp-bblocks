@@ -10,6 +10,7 @@
 	if ( ! empty( $block['className'] ) ) {	$class_name .= ' ' . $block['className']; }
 	$section_acf = get_fields('acf/herosection');
 	$front_render = include 'front-render.php';
+	$inner_blocks_template = '';
 ?>
 <InnerBlocks class="hero-block-acf__innerblocks" template="<?php echo esc_attr( wp_json_encode( $inner_blocks_template ) ); ?>"	templateLock="all" />
 <?php if ( ! $is_preview ) { ?>
