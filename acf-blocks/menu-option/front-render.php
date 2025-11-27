@@ -14,7 +14,7 @@
 		'fallback_cb' => '__return_false',
 		'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
 		'depth' => 1, // 1 = no dropdowns, 2+ dropdowns
-		'before' => '<input class="item-sub" type="checkbox" name="nav">',
+		'before' => '<input class="item-sub" type="checkbox" name="nav" style="opacity:0">',
 		'after' => '',
 		'link_before' => '',
 		'link_after' => '',
@@ -25,7 +25,7 @@
 		'depth'             => 4,
 		'container'         => false,
 		'menu_class'        => '',
-		'before' 			=> '<input class="item-sub" type="checkbox" name="menu-item"><em></em>',
+		'before' 			=> '<input class="item-sub" type="checkbox" name="menu-item" style="opacity:0"><em></em>',
 		'fallback_cb'       => '__return_false',
 		'items_wrap' 		=> '<ul id="wp-header-menu" class="menu-item__sub-wrap navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
 		'walker'            => new bootstrap_5_wp_nav_menu_walker(),
@@ -40,7 +40,7 @@
 		'fallback_cb' => '__return_false',
 		'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
 		'depth' => 2, // 2 level listing
-		'before' => '<input class="item-sub" type="checkbox" name="nav">',
+		'before' => '<input class="item-sub" type="checkbox" name="nav" style="opacity:0">',
 		'after' => '',
 		'link_before' => '',
 		'link_after' => '',
